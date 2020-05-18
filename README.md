@@ -4,11 +4,11 @@ A new Flutter project.
 
 ## Screenshots
 
-	|	
+screenshot1|screenshot2	
 :-------------------------:|:-------------------------:
 ![ScreenShot](/screenshots/screenshot1.png)	|	![ScreenShot](/screenshots/screenshot2.png)
 
-	|	|	
+screenshot3|screenshot4|screenshot5	
 :-------------------------:|:-------------------------:|:-------------------------:
 ![ScreenShot](/screenshots/screenshot3.png)	|	![ScreenShot](/screenshots/screenshot4.png)	|	![ScreenShot](/screenshots/screenshot5.png)
 
