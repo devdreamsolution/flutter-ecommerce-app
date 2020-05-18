@@ -1,0 +1,73 @@
+### MENU HOME
+GET https://multi-repuestos.com/wp-json/menus/v1/menus/primary-menu
+
+###
+### TOP CATEGORIAS DEL MES
+
+### RECOMENDACIONES
+GET https://multi-repuestos.com/wp-json/wc/v3/products?filter[meta_key]=total_sales&per_page=4 HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXVsdGktcmVwdWVzdG9zLmNvbSIsImlhdCI6MTU4OTUyNDk2MywibmJmIjoxNTg5NTI0OTYzLCJleHAiOjE1OTAxMjk3NjMsImRhdGEiOnsidXNlciI6eyJpZCI6IjEifX19.Q8sTR1-91B8-WYc_s5X5C0DXG-yEMUBsQ2COgpmbDYY
+
+### RECOMENDACIONES
+GET https://multi-repuestos.com/wp-json/wc/v3/reports/top_sellers HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXVsdGktcmVwdWVzdG9zLmNvbSIsImlhdCI6MTU4OTUyNDk2MywibmJmIjoxNTg5NTI0OTYzLCJleHAiOjE1OTAxMjk3NjMsImRhdGEiOnsidXNlciI6eyJpZCI6IjEifX19.Q8sTR1-91B8-WYc_s5X5C0DXG-yEMUBsQ2COgpmbDYY
+
+
+
+############## BUSQUEDA #################
+
+###LISTADO DE CATEGORIAS
+GET https://multi-repuestos.com/wp-json/wc/v3/products/categories?parent=0&per_page=40 HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXVsdGktcmVwdWVzdG9zLmNvbSIsImlhdCI6MTU4OTUyNDk2MywibmJmIjoxNTg5NTI0OTYzLCJleHAiOjE1OTAxMjk3NjMsImRhdGEiOnsidXNlciI6eyJpZCI6IjEifX19.Q8sTR1-91B8-WYc_s5X5C0DXG-yEMUBsQ2COgpmbDYY
+###LISTADO DE SUBCATEGORIAS
+GET https://multi-repuestos.com/wp-json/wc/v3/products/categories?parent=15&per_page=40 HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXVsdGktcmVwdWVzdG9zLmNvbSIsImlhdCI6MTU4OTUyNDk2MywibmJmIjoxNTg5NTI0OTYzLCJleHAiOjE1OTAxMjk3NjMsImRhdGEiOnsidXNlciI6eyJpZCI6IjEifX19.Q8sTR1-91B8-WYc_s5X5C0DXG-yEMUBsQ2COgpmbDYY
+
+
+####
+GET https://multi-repuestos.com/wp-json/wc/v2/products/?name='barra' HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXVsdGktcmVwdWVzdG9zLmNvbSIsImlhdCI6MTU4OTUyNDk2MywibmJmIjoxNTg5NTI0OTYzLCJleHAiOjE1OTAxMjk3NjMsImRhdGEiOnsidXNlciI6eyJpZCI6IjEifX19.Q8sTR1-91B8-WYc_s5X5C0DXG-yEMUBsQ2COgpmbDYY
+
+### listado de productos
+CURL https://multi-repuestos.com/wp-json/wc/v3/products -u ck_4b5cd864e3f40d3816861920b3954c19dac1742c:cs_a32fcafb3f886b9b544861db7c44fb217d697141
+
+### listado de empresas
+CURL https://multi-repuestos.com/wp-json/wc/v3/products/attributes -u ck_4b5cd864e3f40d3816861920b3954c19dac1742c:cs_a32fcafb3f886b9b544861db7c44fb217d697141
+
+### listado de empresas
+CURL https://multi-repuestos.com/wp-json/wcfmmp/v1/products -u ck_27870f208e4dd3ef7d26490a1131ecbf91be5339:cs_92ae2bf798c87c93a2577ed1c05085d8f6a4e5c4
+
+
+###
+GET https://multi-repuestos.com/wp-json/wcfmmp/v1/store-vendors HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXVsdGktcmVwdWVzdG9zLmNvbSIsImlhdCI6MTU4OTUyNDk2MywibmJmIjoxNTg5NTI0OTYzLCJleHAiOjE1OTAxMjk3NjMsImRhdGEiOnsidXNlciI6eyJpZCI6IjEifX19.Q8sTR1-91B8-WYc_s5X5C0DXG-yEMUBsQ2COgpmbDYY
+
+###
+GET https://multi-repuestos.com/wp-json/wcfmmp/v1/products?vendor=8 HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXVsdGktcmVwdWVzdG9zLmNvbSIsImlhdCI6MTU4OTUyNDk2MywibmJmIjoxNTg5NTI0OTYzLCJleHAiOjE1OTAxMjk3NjMsImRhdGEiOnsidXNlciI6eyJpZCI6IjEifX19.Q8sTR1-91B8-WYc_s5X5C0DXG-yEMUBsQ2COgpmbDYY
+
+###
+GET https://multi-repuestos.com/wp-json/wcfmmp/v1/products?name='barra' HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXVsdGktcmVwdWVzdG9zLmNvbSIsImlhdCI6MTU4OTUyNDk2MywibmJmIjoxNTg5NTI0OTYzLCJleHAiOjE1OTAxMjk3NjMsImRhdGEiOnsidXNlciI6eyJpZCI6IjEifX19.Q8sTR1-91B8-WYc_s5X5C0DXG-yEMUBsQ2COgpmbDYY
+
+######
+GET https://multi-repuestos.com/wp-json/wcfmmp/v1/vendors HTTP/1.1
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczpcL1wvbXVsdGktcmVwdWVzdG9zLmNvbSIsImlhdCI6MTU4OTUyNDk2MywibmJmIjoxNTg5NTI0OTYzLCJleHAiOjE1OTAxMjk3NjMsImRhdGEiOnsidXNlciI6eyJpZCI6IjEifX19.Q8sTR1-91B8-WYc_s5X5C0DXG-yEMUBsQ2COgpmbDYY
+
+#####
+CURL https://multi-repuestos.com/wp-json/wcfmmp/v1/products -u admin:4A^7n6UC!piQeH%lDQ8JhsPE
+
+Yt-29!VkKRsRkh2d?xlR~>ZmP87tYwxJ7-SSTPyQ4g8ZXg?
+
+#####
+POST https://multi-repuestos.com/wp-json/jwt-auth/v1/token HTTP/1.1
+content-type: application/json
+
+{
+    "username":"admin",
+    "password":"4A^7n6UC!piQeH%lDQ8JhsPE"
+}
+
+
+####
+GET https://multi-repuestos.com/wp-json/jwt-auth/v1 HTTP/1.1
